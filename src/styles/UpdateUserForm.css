@@ -1,0 +1,22 @@
+/* styles/UpdateUserForm.css */
+
+.update-user-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.update-user-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.update-user-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}

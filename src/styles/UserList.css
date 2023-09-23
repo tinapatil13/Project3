@@ -1,0 +1,20 @@
+/* styles/UserList.css */
+
+.user-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.user-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+
+.user-item:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
